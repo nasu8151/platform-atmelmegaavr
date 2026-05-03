@@ -1,0 +1,24 @@
+{
+  "build": {
+    "core": "dxcore",
+    "extra_flags": "-DARDUINO_AVR_AVR16EA48 -DARDUINO_avrea",
+    "f_cpu": "20000000L",
+    "mcu": "avr16ea48",
+    "variant": "48pin-standard"
+  },
+  "hardware": {
+    "oscillator": "internal"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "AVR16EA48",
+  "upload": {
+    "maximum_ram_size": 2048,
+    "maximum_size": 16384,
+    "protocol": "jtag2updi",
+    "speed": 115200
+  },
+  "url": "https://www.microchip.com/wwwproducts/en/AVR16EA48",
+  "vendor": "Microchip"
+}
